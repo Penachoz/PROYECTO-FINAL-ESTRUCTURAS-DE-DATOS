@@ -5,9 +5,4 @@ export class Equipo{
         this.soluciones = soluciones;
         this.tiempo = tiempo;
     }
-
-    toString(){
-        return "\n\tNombre: " + this.nombre +
-        "\n\tFrecuencia: " + this.frecMensual;
-    }
 }
