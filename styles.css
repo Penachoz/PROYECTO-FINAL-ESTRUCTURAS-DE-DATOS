@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.Botones{
+  display: flex;
+  justify-content: center;
+
+
+}
+.Boton1 {
+    width: 10%;
+    height: 30px;
+    border: 0px solid #ffffff;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffffff;
+    cursor: pointer;
+}
+.TextBoxInputDatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#InputDatos{
+    width: 20%;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
